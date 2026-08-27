@@ -51,6 +51,7 @@ Before step 1, confirm you have:
    - `channels:history` — read public channels
    - `groups:history` — read private channels
    - `im:history` — read DMs
+   - `im:write` — open DM conversations (bot-initiated DMs; also lets operators test the pipe with conversations.open)
    - `reactions:write` — add reactions
    - `files:read` — download shared files
    - `files:write` — upload files

@@ -301,6 +301,7 @@ Write `slack-app-manifest.json` to the user's current directory:
         "channels:history",
         "groups:history",
         "im:history",
+        "im:write",
         "reactions:write",
         "files:read",
         "files:write",

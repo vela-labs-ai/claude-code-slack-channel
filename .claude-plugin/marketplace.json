@@ -1,0 +1,15 @@
+{
+  "name": "vela-fleet",
+  "owner": { "name": "Keith Kowal", "email": "keith@kowal.me" },
+  "metadata": {
+    "description": "Vela fleet's pinned plugin marketplace — security-reviewed forks only",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "slack-channel",
+      "source": "./",
+      "description": "Two-way Slack channel bridge (pinned, security-reviewed fork of jeremylongshore/claude-code-slack-channel)"
+    }
+  ]
+}

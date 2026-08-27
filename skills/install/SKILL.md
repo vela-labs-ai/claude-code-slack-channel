@@ -284,6 +284,10 @@ Write `slack-app-manifest.json` to the user's current directory:
     "background_color": "#1a1a1a"
   },
   "features": {
+    "app_home": {
+      "messages_tab_enabled": true,
+      "messages_tab_read_only_enabled": false
+    },
     "bot_user": {
       "display_name": "Claude Code",
       "always_online": true

@@ -292,6 +292,7 @@ Write `slack-app-manifest.json` to the user's current directory:
   "oauth_config": {
     "scopes": {
       "bot": [
+        "app_mentions:read",
         "chat:write",
         "channels:history",
         "groups:history",

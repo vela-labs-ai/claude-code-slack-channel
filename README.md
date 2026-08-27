@@ -46,6 +46,7 @@ Before step 1, confirm you have:
    - `message.groups` — private channels
    - `app_mention` — @ mentions
 4. **Bot Token Scopes** (OAuth & Permissions):
+   - `app_mentions:read` — receive @-mention events (required by the `app_mention` event subscription; manifest import fails validation without it)
    - `chat:write` — send messages
    - `channels:history` — read public channels
    - `groups:history` — read private channels
